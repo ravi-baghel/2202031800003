@@ -1,0 +1,132 @@
+<style>
+  .container {
+    background-color: #fff;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 49px 0;
+  }
+
+  .headerBar {
+    background-color: #d9d9d9;
+    z-index: 10;
+    min-height: 50px;
+    width: 100%;
+  }
+
+  .contactInfo {
+    background-color: #008000;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    white-space: nowrap;
+    padding: 8px 60px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+  }
+
+  .imageContainer {
+    display: flex;
+    margin-top: 11px;
+    padding-right: 18px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+  }
+
+  .mainImage {
+    aspect-ratio: 4.17;
+    object-fit: auto;
+    object-position: center;
+    width: 288px;
+    align-self: stretch;
+  }
+
+  .iconImage,
+  .iconImage-second {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 30px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+
+  .actionSection {
+    border: 3px solid rgba(217, 217, 217, 0.75);
+    background-color: #fff;
+    display: flex;
+    margin-top: 7px;
+    width: 100%;
+    flex-direction: column;
+    font-weight: 400;
+    padding: 18px 30px 50px 13px;
+  }
+
+  .opportunityTitle,
+  .footerSectionTitle {
+    color: rgba(33, 30, 30, 0.75);
+    white-space: nowrap;
+    font-size: 30px;
+    font-family: Mirza, sans-serif;
+  }
+
+  .opportunityDescription {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: Acme, sans-serif;
+  }
+
+  .actionCall {
+    border-radius: 10px;
+    background-color: rgba(240, 144, 48, 0.89);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+    margin: 41px 0 5px;
+    padding: 11px 20px;
+  }
+
+  .applyButton {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    appearance: none;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    margin: -2px 0 0 -1px;
+    padding: 15px 25px;
+  }
+</style>
+
+<main class="container">
+  <header class="headerBar"></header>
+  <section class="contactInfo">mitrafoundation03@gmail.com</section>
+  <div class="imageContainer">
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ab179af3431b215c91cd2a63b0bcc85f3bef1cacc43eb4d75d7c0b723dabeb36?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Volunteer Opportunity Overview" class="mainImage" />
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0c9b1274b7d67624181781103a766cffd6872c5b3248087ac9dc0bbbec28f58a?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Icon" class="iconImage" />
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4474f4a3b2fc0eed77be3876a7219032896a06b88a0573b639d332bc6f4d7cf5?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Icon" class="iconImage-second" />
+  </div>
+  <section class="actionSection">
+    <div class="opportunityTitle">VOLUNTEER OPPORTUNITY</div>
+    <div class="opportunityDescription">
+      Beyond cash and budget, your time, and your distinctive skills could all be valuable and impactful. If you’d like to join the fight for India’s unforgotten animals, we’d love to have you. Check out our volunteer opportunities below.
+    </div>
+    <div class="actionCall">
+      <button class="applyButton" tabindex="0">Apply as volunteer</button>
+    </div>
+  </section>
+</main>
+
