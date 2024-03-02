@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex flex-col pt-12 mx-auto w-full bg-white max-w-[480px]">
+        <header class="z-10 w-full bg-zinc-300 min-h-[50px]"></header>
+        <section class="justify-center items-center px-16 py-2 w-full text-base italic font-medium text-white whitespace-nowrap bg-green-800">
+            mitrafoundation03@gmail.com
+        </section>
+        <main class="flex gap-3.5 justify-between items-center pr-5 mt-3">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ab179af3431b215c91cd2a63b0bcc85f3bef1cacc43eb4d75d7c0b723dabeb36?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Decorative" class="self-stretch w-72 aspect-[4.17]">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6b0413ff0a64a3a6553b216f6df6876da3af564b7b04463fb99fbe56c32bda1d?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Interactive icon" class="self-stretch my-auto aspect-square fill-black w-[30px]" tabindex="0">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/757770daa9382f7f77ccf86c2872c2f45ac48de5f71f355f72fd600c22aa57e6?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Decorative shape" class="self-stretch my-auto aspect-[1.27] stroke-[5px] stroke-black w-[29px]">
+        </main>
+        <footer class="flex overflow-hidden relative flex-col pt-2 pb-12 w-full aspect-[0.61]">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a69ab5416e14c48ddde0389f30922721bd995797868d3a138067deb26bf4f135?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Feature image" class="object-cover absolute inset-0 size-full">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1b9f593024ead781dc787e4ee60999c3da53dc65248e542f86cc2862a9c195dc?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Secondary feature" class="mb-80 w-full aspect-[2.33]">
+        </footer>
+    </div>
+</body>
+
+</html>
