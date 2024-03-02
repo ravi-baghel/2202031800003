@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Update</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: #fff;
+            display: flex;
+            max-width: 480px;
+            width: 100%;
+            flex-direction: column;
+            font-size: 15px;
+            color: #000;
+            font-weight: 500;
+            white-space: nowrap;
+            margin: 0 auto;
+            padding: 41px 0;
+        }
+
+        .header {
+            background-color: #d9d9d9;
+            z-index: 10;
+            min-height: 50px;
+            width: 100%;
+        }
+
+        .email_container {
+            font-style: italic;
+            background-color: #008000;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 60px;
+            color: #fff;
+            text-align: center;
+        }
+
+        .image,
+        .image_secondary {
+            width: 100%;
+            aspect-ratio: auto;
+            object-fit: cover;
+            object-position: center;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            margin-top: 11px;
+        }
+
+        .image_secondary {
+            margin-top: 29px;
+            max-width: 364px;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header"></div>
+    <div class="email_container">mitrafoundation03@gmail.com</div>
+    <img loading="lazy" alt="Main Image" src="https://cdn.builder.io/api/v1/image/assets/TEMP/34f62099d7a90716dc58a6b836602973be84bb510dece640dea178a33a74b988?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="image" />
+    <img loading="lazy" alt="Secondary Image" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cd354698a1035345cc5d46d17bdeeb53e7b246214a5943d822d791acd5668755?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="image_secondary" />
+</div>
+
+</body>
+</html>
