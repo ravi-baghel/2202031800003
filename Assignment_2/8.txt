@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Programs</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex flex-col pt-12 pb-5 mx-auto w-full bg-white max-w-[480px]">
+        <div class="z-10 w-full bg-zinc-300 min-h-[50px]"></div>
+        <div class="justify-center items-center px-16 py-2 w-full text-base italic font-medium text-white whitespace-nowrap bg-green-800">
+            mitrafoundation03@gmail.com <br />
+        </div>
+        <div class="flex gap-3.5 justify-between items-center pr-5 mt-3">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ab179af3431b215c91cd2a63b0bcc85f3bef1cacc43eb4d75d7c0b723dabeb36?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="self-stretch w-72 aspect-[4.17]" />
+           img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6b0413ff0a64a3a6553b216f6df6876da3af564b7b04463fb99fbe56c32bda1d?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="self-stretch my-auto aspect-square fill-black w-[30px]" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/757770daa9382f7f77ccf86c2872c2f45ac48de5f71f355f72fd600c22aa57e6?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="self-stretch my-auto aspect-[1.27] stroke-[5px] stroke-black w-[29px]" />
+        </div>
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/56744400b038e6ebdd0ecc3145ca220c7efbec7692ea20f41998f8d6b1202077?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="w-full aspect-[3.57]" />
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6025ab67b7d9229fa04f9b63733a08cfb44422851ef41e5c85c983f4c006d040?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="mt-6 w-full aspect-[0.8]" />
+    </div>
+</body>
+
+</html>
