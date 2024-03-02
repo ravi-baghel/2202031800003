@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabies free india</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex flex-col pt-12 mx-auto w-full bg-white max-w-[480px]">
+        <header class="z-10 w-full bg-zinc-300 min-h-[50px]" role="banner">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0b06d92df3f97b539d5d7f3db9eaa16a0387da306cbd9226b4de793d77611e1c?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="" class="w-full h-full object-cover">
+        </header>
+        <section class="items-center px-16 pt-1 pb-3 w-full text-base italic font-medium text-white whitespace-nowrap bg-green-800" aria-label="Contact Email">
+            <p>mitrafoundation03@gmail.com</p>
+        </section>
+        <nav class="flex gap-3.5 justify-between items-center pr-5 mt-2.5" aria-label="Social Links">
+            <a href="#" tabindex="0">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6b205a8e5ec58fdce0160d0a7859c055662b31476f91815de9fb8cbcc241704?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Organization's Official Logo" class="self-stretch w-72 aspect-[4.17]" />
+            </a>
+            <a href="#" tabindex="0">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5b5df1a60cb4fe2d4707f09a41e6b216639e1ef56211600a8f39ecdcc4d7c635?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Facebook Page" class="self-stretch my-auto aspect-square fill-black w-[30px]" />
+            </a>
+            <a href="#" tabindex="0">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/228f68fda981ff2adfcce4800290d530e57cceca976c233909e8a3d73cfbfbd8?apiKey=c94f4eb651424880ad3e243dcfd437b9&" alt="Instagram Page" class="self-stretch my-auto aspect-[1.32] stroke-[5px] stroke-black w-[29px]" />
+            </a>
+        </nav>
+        <figure>
+            <img loading="lazy" alt="Banner showing organization's activities" class="mt-1.5 w-full aspect-[0.63]" />
+        </figure>
+    </div>
+</body>
+</html>
