@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex flex-col py-11 mx-auto w-full bg-white max-w-[480px]">
+        <div class="z-10 w-full bg-zinc-300 min-h-[50px]"></div>
+        <div class="justify-center items-center px-16 py-2 w-full text-base italic font-medium text-white whitespace-nowrap bg-green-800">
+            mitrafoundation03@gmail.com <br />
+        </div>
+        <div class="flex gap-3.5 justify-between items-center pr-5 mt-3">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ab179af3431b215c91cd2a63b0bcc85f3bef1cacc43eb4d75d7c0b723dabeb36?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="self-stretch w-72 aspect-[4.17]" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6b0413ff0a64a3a6553b216f6df6876da3af564b7b04463fb99fbe56c32bda1d?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="self-stretch my-auto aspect-square fill-black w-[30px]" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/757770daa9382f7f77ccf86c2872c2f45ac48de5f71f355f72fd600c22aa57e6?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="self-stretch my-auto aspect-[1.27] stroke-[5px] stroke-black w-[29px]" />
+        </div>
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/10b37938453660f5dda05d6cd0cfa446758755379722404e116b2720125caf64?apiKey=c94f4eb651424880ad3e243dcfd437b9&" class="w-full aspect-[2.33]" />
+        <div class="flex flex-col py-6 pr-7 pl-3.5 mt-14 w-full text-xl bg-white border-solid border-[3px] border-zinc-300 border-opacity-80 text-stone-900 text-opacity-80">
+            <div class="whitespace-nowrap">Adopt a pet</div>
+            <div class="flex flex-col justify-center mt-1.5 text-2xl text-white rounded-xl bg-orange-400 bg-opacity-90">
+                <div class="justify-center py-3.5 pr-9 pl-3.5 rounded-xl bg-orange-400 bg-opacity-90">
+                    Adoption application <br />
+                </div>
+            </div>
+            <div class="mt-8">
+                Sterilizing your street dogs <br />
+                and cats is sure way to <br />
+                end suffering <br />
+            </div>
+            <div class="pt-5 pr-14 pb-1 pl-5 text-2xl text-white rounded-xl bg-green-800 bg-opacity-90">
+                Request sterilizations
+            </div>
+            <div class="mt-7">
+                Have you witnessed animal abuse <br />
+                or cruelty around you?
+            </div>
+            <div class="justify-center px-3 py-3 text-2xl text-white rounded-xl bg-orange-400 bg-opacity-90">
+                Report Animal Cruelty
+            </div>
+        </div>
+    </div>
+</body>
+</html>
